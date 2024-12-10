@@ -1,0 +1,135 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #f7f5f2; /* Fundo geral neutro */
+    color: #5a4631; /* Texto em marrom escuro */
+    line-height: 1.8;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 30px;
+    background-color: #d19c77; /* Terracota suave */
+    color: #ffffff; /* Texto branco */
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff; /* Mantém o texto destacado no header */
+}
+
+/* Family Member Sections */
+.family-member {
+    background-color: #f4eae0; /* Creme pastel */
+    margin: 40px 0;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.family-member:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.family-member h2 {
+    font-size: 2rem;
+    color: #a3b18a; /* Verde oliva claro */
+    margin-bottom: 20px;
+}
+
+.family-member img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #a3b18a;
+    transition: box-shadow 0.3s ease;
+}
+
+.family-member img:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.family-member p {
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-top: 10px;
+    color: #5a4631; /* Texto marrom escuro */
+}
+
+/* Final Message Section */
+.final-mensage {
+    background-color: #a3b18a; /* Verde oliva claro */
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-style: italic;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    font-size: 1.3rem;
+    color: #ffffff; /* Texto branco para contraste */
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #5a4631; /* Marrom escuro */
+    color: #ffffff; /* Texto branco */
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+
+/* Estilo para telas menores */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2.2rem;
+    }
+
+    .family-member img {
+        max-width: 150px;
+    }
+
+    .family-member p {
+        font-size: 1rem;
+    }
+}
+
+
+.navegation{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.navegation .link{
+    display: inline-block; /*faz se comportar igual botao*/
+    padding: 10px 20px; /* spaçamento interno*/
+    margin: 5px; /* espaçamento entre os botoes */
+    background-color: #d19c77; /*cor de fundo*/
+    color:  #ffffff; /*cor do texto*/
+    text-decoration: none; /*tira o sublinhado*/
+    border-radius: 10px; /*arredonda as bordas*/
+    font-weight: bold; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animação ao passar o mouse */
+}
+
+.navegation .link:hover {
+    background-color: #a3b18a; /* Cor ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Intensifica a sombra */
+}

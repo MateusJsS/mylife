@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*Altere para o caminho da sua imagem*/
+    background-image: url(imagens/0e9b420b-7978-47b0-9691-3b9c1c5b647b.webp);
+    background-size: cover ;/* Faz com que a imagem cubra toda a tela */
+    background-position: center; /* Centraliza a imagem na tela */
+
+}
+
+@keyframes fadeIn{
+    from{ opacity: 0;} /*começa invisivel*/
+    to { opacity: 1;}    /*termina invisvel*/
+}
+
+.parallax{
+    background-image: url(https://files.oaiusercontent.com/file-WvLS6RBzHEPWSvAp438onP?se=2024-12-03T18%3A30%3A05Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D0e9b420b-7978-47b0-9691-3b9c1c5b647b.webp&sig=nyc461ROvzu//YD9mhpwJnVOEG6HNwTcn7469L/wUpU%3D);
+    height: 500px; 
+    background-attachment: fixed;
+    background-size: cover;
+}   
+
+
+
+
+.titulo{
+    animation: fadeIn 6s ease-in; /*Animação aplicada ao título */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, rgba(106, 13, 173, 0.3), rgba(138, 43, 226, 0.3)); /* Tons de roxo com 30% de opacidade */
+    color: #F6E17A; /* Amarelo suave para o título */
+}
+
+.card h2 {
+    color: #E6A9EC; /* Roxo claro para os subtítulos dentro dos cards */
+    text-align: center;
+}
+
+.card p {
+    color: #FFFFFF;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.8); /* Fundo escuro translúcido */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    max-width: 600px;
+    box-shadow: 0px 4px 10px rgba(138, 43, 226, 0.2); /* Roxo para a sombra */
+    text-align: center;
+}
+
+.navegation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #8A2BE2; /* Roxo vibrante para os botões */
+    color: #FFFFFF; /* Branco para o texto dos links */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.link:hover {
+    background-color: #9932CC; /* Roxo mais escuro no hover */
+    transform: scale(1.1);
+}
+
+.neon{
+    color:  #E6A9EC;
+    text-shadow: 0 0 5px #E6A9EC, 0 0 10px #E6A9EC, 0 0 20px #8A2BE2, 0 0 30px #8A2BE2, 0 0 40px #8A2BE2; /*cria um efeito neon no titulo e subtitulo*/
+}
+
+
+

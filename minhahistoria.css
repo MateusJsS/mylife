@@ -1,0 +1,270 @@
+
+body{
+    background: linear-gradient(to bottom, #2c3e50, #34495e);
+}
+
+
+
+/*estilizando o header*/
+
+header{
+    background-color: #e2c097; /* Fundo dourado suave para dar o tom nostálgico */
+    padding: 20px 5px; /* Espaçamento interno: 50px para cima e para baixo, 20px nas laterais */
+    text-align: center; /*alinha o texto do header*/
+    border-bottom: 5px solid #b59568; /*adiciona borda inferior mais escura para dar enfase*/
+    box-shadow: 0 4px 8px rgba(0 ,0  ,0 , 1); /*sombta que da profundidade*/
+}
+
+header h1{
+    font-family: 'Dancing Script', cursive; /* Fonte cursiva, para um toque pessoal e nostálgico */
+    font-size: 3em; /*tamanho do tiutlo*/
+    color: #ffff; /*cor do titulo*/
+    text-shadow:  2px 2px 5px rgba(0, 0, 0,0,3 ); /*sombra para suavizar o texto*/
+    margin-bottom: 15px; /*espaçamento abaixo do titulo*/
+
+}
+
+header p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em; /*aumenta o tamanho da letra*/
+    color: #ffff; /*cor do texto*/
+    margin-top: 0; /*remove a margin superior*/
+    margin-bottom: 0;/*remove a margim inferior */
+    line-height: 1,5; /*melhora o espaçamento entre as linhas*/
+
+}
+
+/*estilizaçao da seçao introduçao*/
+
+section#introduçao{
+    background-color: #fdf6e3; /*fundo bege claro para simular um papel*/
+    padding: 20px; /*espaçamento interno*/
+    margin: 30px auto; /*espaçametno externo*/
+    border: 2px solid #e2c097; /*borda sutil dourada*/
+    border-radius: 8px; /*arredonda as bordas*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve para criar profundidade */
+
+}
+
+/*titulo da introduçao*/
+
+section#introduçao h2{
+    font-family: 'Roboto', sans-serif; /* Fonte mais séria e limpa */
+    font-size: 2em; /*aumenta o tamaho da fonte*/
+    color: #b59568; /* Cor dourada suave */
+    margin-bottom: 10px; /*espaçamento abaixo do texto*/
+    text-align: center;
+    text-transform: capitalize; /*deixa as letras inciais maiusculas*/
+}
+
+/*paragrago*/
+
+section#introduçao p{
+    font-family: 'Schoolbell', sans-serif; /*tipo da fonte*/
+    font-size: 1.1em; /*tamanho da fonte*/
+    color: #5c5243; /* Tom de marrom suave para o texto */
+    line-height: 1,6; /*espaçametnos das linhas*/
+    text-align: justify; /*justifica o texto*/
+    margin-top: 10px 0;
+
+}
+
+/*estilizar a seçassao infancia */
+
+section#infancia{
+    background-color: #fdf6e3 ; /*cor de fundo*/
+    padding: 20px; /*distancia interna*/
+    margin: 30px; /*distancia externa */
+    border: 2px solid #e2c097; /*adiciona uma borda dourada*/
+    border-radius: 8px; /*arredonda a borda*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para criar profundidade */
+}
+
+section#infancia h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color: #b59568;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+section#infancia p{
+    font-family: 'Schoolbell', sans-serif;
+    font-size: 1.2em;
+    color: #5c5243 ;
+    line-height: 1,6px;
+    text-align: justify;
+    margin-top: 10px 0;
+}
+
+/*estilizar pandemia*/
+
+section#pandemia{
+    background-color: #fdf6e3;
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid #e2c097;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0, 0, 0,1); 
+}
+
+section#pandemia h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color:#b59568 ;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+section#pandemia p{
+    font-family: 'Schoolbell', sans-serif;
+    font-size: 1.2em;
+    color: #5c5243;
+    line-height: 1,6px;
+    text-align: justify;
+    margin-top: 10px 0;
+}
+
+/*estilizaçao dsa seçao 2022*/
+
+
+section#mudanças-2022{
+    background-color:#fdf6e3 ;
+    padding: 20px ;
+    margin: 30px;
+    border: 2px solid #e2c097;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0,1);
+}
+
+section#mudanças-2022 h2{
+    font-family: 'roboto',sans serif;
+    font-size: 2em;
+    color: #b59568;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+section#mudanças-2022 p {
+    font-family: 'schoolbell',sans serif;
+    font-size: 1.2em;
+    color: #5c5243;
+    line-height: 1,6px;
+    text-align: justify;
+    margin-top: 10px 0;
+}
+
+
+/*estilizaçao da parte trabalho-2023*/
+
+section#trabalho-2023 {
+    background-color: #fdf6e3;
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid #e2c097;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0,1);
+}
+
+section#trabalho-2023 h2{
+    font-family: 'roboto',sans serif;
+    font-size: 2em;
+    color: #b59568;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+section#trabalho-2023 p {
+    font-family: 'schoolbell',sans serif;
+    font-size: 1.2em;
+    color: #5c5243;
+    line-height: 1,6px;
+    text-align: justify;
+    margin-top: 10px 0;
+}
+
+/*ultima seçao finalizando-2024*/
+
+section#finalizando-2024{
+    background-color: #fdf6e3;
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid #e2c097;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0,1);
+}
+
+section#finalizando-2024 h2{
+    font-family: 'roboto',sans serif;
+    font-size: 2em;
+    color: #b59568;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+section#finalizando-2024 p{
+    font-family: 'schoolbell',sans serif;
+    font-size: 1.2em;
+    color:#5c5243 ;
+    line-height: 1,6px;
+    text-align: justify;
+    margin-top: 10px 0;
+}
+
+section h2:hover{
+    color: #e2c097;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 5); 
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 10px;
+        margin: 10px;
+    }
+    .link a {
+        font-size: 0.9em; /* Reduzir tamanho para botões ficarem compactos */
+    }
+}
+
+footer{
+    font-family: 'roboto',sans serif;
+    color: #e2c097;
+    padding: 15px;
+    font-size: 0.9em;
+
+}
+
+/*estilizaçao links*/
+
+.link a{
+    text-decoration: none;
+    color: #5c5243;
+    background-color: #fdf6e3;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px; 
+    display: inline-block;
+    font-family: 'schoolbell', sans-serif;
+    transition: background-color 0.3s;
+    transition: all 0.3s ease-in-out;     /* Transição suave de todos os efeitos */
+}
+
+.link a:hover {
+    background-color: #e2c097;            /* Cor de fundo dourada quando passa o mouse */
+    color: #fff;                          /* Texto branco no hover */
+    cursor: pointer;                     /* Indica que é clicável */
+    transform: scale(1.1);                /* Aumenta o tamanho do botão */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombras mais fortes para dar profundidade */
+    border-color: #b59568;  /* Borda dourada mais escura no hover */
+    transition: all 0.5s ease;              
+}
+
+
+.link a:focus {
+    outline: none;                        /* Remove a linha de contorno padrão */
+    border: 2px solid #b59568;            /* Borda dourada mais escura para o foco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra mais intensa para destaque */
+}
